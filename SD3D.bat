@@ -1,0 +1,1 @@
+schtasks /create /tn "ShutdownTask" /tr "shutdown /s /f /t 0" /sc once /st 10:30 /f
